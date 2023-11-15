@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="This is the message written from intellij. Adding sample test class." />
+    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="I have deleted test class. This was the last random commit made by me. Let's keep working.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RectangleBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RectangleBox.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -63,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700043373961</updated>
-      <workItem from="1700043376483" duration="10721000" />
+      <workItem from="1700043376483" duration="11971000" />
     </task>
     <task id="LOCAL-00001" summary="This is the message written from intellij. Adding sample test class.">
       <option name="closed" value="true" />
@@ -89,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700077142951</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I have deleted test class. This was the last random commit made by me. Let's keep working.">
+      <option name="closed" value="true" />
+      <created>1700079208916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700079208916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is the message written from intellij." />
     <MESSAGE value="This is the message written from intellij. Adding sample test class." />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the message written from intellij. Adding sample test class." />
+    <MESSAGE value="I have deleted test class. This was the last random commit made by me. Let's keep working." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have deleted test class. This was the last random commit made by me. Let's keep working." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
