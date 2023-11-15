@@ -10,6 +10,7 @@ class Hello {
 public class HelloController extends Hello{
     public void modify(){
         System.out.println("Fuck ");
+        System.out.println("Fuck, I am making a game.");
     }
     @FXML
     private Label welcomeText;
