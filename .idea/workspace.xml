@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="aarya's test">
+    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="Trying to pull the changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700135081874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trying to pull the changes.">
+      <option name="closed" value="true" />
+      <created>1700136775472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700136775472</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +173,8 @@
     <MESSAGE value="I have deleted test class. This was the last random commit made by me. Let's keep working." />
     <MESSAGE value="Fxml files have been added." />
     <MESSAGE value="aarya's test" />
-    <option name="LAST_COMMIT_MESSAGE" value="aarya's test" />
+    <MESSAGE value="Trying to pull the changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to pull the changes." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
