@@ -1,0 +1,57 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"cb1fe753-a9fc-4d10-8716-b2392a72786a\" name=\"Changes\" comment=\"Aastha test\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"FxmlFile\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_TAGS\">\n      <GitPushTagMode>\n        <option name=\"argument\" value=\"--tags\" />\n        <option name=\"title\" value=\"All\" />\n      </GitPushTagMode>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\n  \"lastFilter\": {\n    \"state\": \"OPEN\",\n    \"assignee\": \"aastha1708\"\n  }\n}]]></component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"75f19732-119a-4456-a36e-c704c72668ef\" />\n        <option name=\"url\" value=\"https://github.com/Aarya-Gupta/Stick_Hero_Game\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2YCxTleUQ2Iu3xRjDawfehjAGUp\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"master\",\n    \"ignore.virus.scanning.warn.message\": \"true\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"preferences.JavaFX\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"cb1fe753-a9fc-4d10-8716-b2392a72786a\" name=\"Changes\" comment=\"\" />\n      <created>1700043373961</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1700043373961</updated>\n      <workItem from=\"1700043376483\" duration=\"11971000\" />\n      <workItem from=\"1700131172180\" duration=\"2951000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"This is the message written from intellij. Adding sample test class.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700075455883</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700075455883</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"This is the message written from intellij. Adding sample test class.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700075556904</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700075556904</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"This is the message written from intellij. Adding sample test class.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700077142951</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700077142951</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"I have deleted test class. This was the last random commit made by me. Let's keep working.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700079208916</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700079208916</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Aastha test\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1700133052808</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1700133052808</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"This is the message written from intellij.\" />\n    <MESSAGE value=\"This is the message written from intellij. Adding sample test class.\" />\n    <MESSAGE value=\"I have deleted test class. This was the last random commit made by me. Let's keep working.\" />\n    <MESSAGE value=\"Aastha test\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Aastha test\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c6ce463bce4731aaf2a2d7686008e7c0513f2fdd)
++++ b/.idea/workspace.xml	(date 1700135941626)
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="Aastha test" />
++    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="Aastha test - 2">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -98,7 +100,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1700043373961</updated>
+       <workItem from="1700043376483" duration="11971000" />
+-      <workItem from="1700131172180" duration="2951000" />
++      <workItem from="1700131172180" duration="3533000" />
+     </task>
+     <task id="LOCAL-00001" summary="This is the message written from intellij. Adding sample test class.">
+       <option name="closed" value="true" />
+@@ -140,7 +142,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1700133052808</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Aastha test - 2">
++      <option name="closed" value="true" />
++      <created>1700135938238</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1700135938238</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -162,7 +172,8 @@
+     <MESSAGE value="This is the message written from intellij. Adding sample test class." />
+     <MESSAGE value="I have deleted test class. This was the last random commit made by me. Let's keep working." />
+     <MESSAGE value="Aastha test" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Aastha test" />
++    <MESSAGE value="Aastha test - 2" />
++    <option name="LAST_COMMIT_MESSAGE" value="Aastha test - 2" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
