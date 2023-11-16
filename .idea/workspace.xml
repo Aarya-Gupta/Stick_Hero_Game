@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="Aastha test">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Exit.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Homepage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="Aastha test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700043373961</updated>
       <workItem from="1700043376483" duration="11971000" />
-      <workItem from="1700131172180" duration="2692000" />
+      <workItem from="1700131172180" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="This is the message written from intellij. Adding sample test class.">
       <option name="closed" value="true" />
