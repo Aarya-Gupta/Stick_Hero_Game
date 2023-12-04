@@ -1,0 +1,44 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.image.Image?>-->
+<!--<?import javafx.scene.image.ImageView?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+<!--<?import javafx.scene.shape.Rectangle?>-->
+<!--<?import javafx.scene.text.Text?>-->
+
+<!--<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_2022006_2022009.RunningGameController">-->
+<!--    <children>-->
+<!--        <ImageView fitHeight="406.0" fitWidth="606.0" layoutX="-1.0" layoutY="-5.0">-->
+<!--            <image>-->
+<!--                <Image url="@RunningPage_background.jpeg" />-->
+<!--            </image>-->
+<!--        </ImageView>-->
+<!--        <Rectangle arcHeight="5.0" arcWidth="5.0" height="118.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="72.0" />-->
+<!--        <Text layoutX="182.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Helvetica; -fx-font-size: 16; -fx-font-weight: bold; -fx-line-spacing: 2;" text="Hold your finger on screen to stretch out the stick" textAlignment="CENTER" wrappingWidth="241.9830722808838" />-->
+<!--        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000036" height="43.0" layoutX="269.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="67.0" />-->
+<!--        <ImageView fitHeight="41.0" fitWidth="28.0" layoutX="542.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">-->
+<!--            <image>-->
+<!--                <Image url="@Cherries.png" />-->
+<!--            </image>-->
+<!--        </ImageView>-->
+<!--        <Rectangle arcHeight="5.0" arcWidth="5.0" height="118.0" layoutX="132.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />-->
+<!--        <Rectangle arcHeight="5.0" arcWidth="5.0" height="118.0" layoutX="429.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="45.0" />-->
+<!--        <Rectangle arcHeight="5.0" arcWidth="5.0" height="118.0" layoutX="578.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="28.0" />-->
+<!--        <ImageView fx:id="hero_img" fitHeight="107.0" fitWidth="90.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">-->
+<!--            <image>-->
+<!--                <Image url="@HeroImg.png" />-->
+<!--            </image>-->
+<!--        </ImageView>-->
+<!--        <Button layoutX="28.0" layoutY="22.0" minWidth="45.0" mnemonicParsing="false" onAction="#onPauseButtonClick" prefHeight="30.0" prefWidth="45.0" />-->
+<!--        <Label fx:id="currentScore" layoutX="299.0" layoutY="37.0" text="0" />-->
+<!--        <Label layoutX="582.0" layoutY="14.0" text="0" />-->
+<!--        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000036" height="28.0" layoutX="572.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="28.0" />-->
+<!--        <ImageView fitHeight="37.0" fitWidth="54.0" layoutX="36.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">-->
+<!--            <image>-->
+<!--                <Image url="@Pause_logo.png" />-->
+<!--            </image>-->
+<!--        </ImageView>-->
+<!--    </children>-->
+<!--</AnchorPane>-->

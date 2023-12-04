@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_2022006_2022009.PausePageController">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="606.0" layoutX="-4.0" layoutY="-3.0">
+         <image>
+            <Image url="@PausePage_background.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="233.0" layoutY="166.0" mnemonicParsing="false" onAction="#onSaveProgressButtonClick" prefHeight="45.0" prefWidth="135.0" style="-fx-font-family: HELVETICA; -fx-font-weight: BOLD; -fx-background-color: #E4F3FD; -fx-background-radius: 10;" text="SAVE PROGRESS" textFill="#2e0505" />
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="276.0" layoutY="109.0" mnemonicParsing="false" onAction="#onHomeButtonClick" prefHeight="45.0" prefWidth="49.0" style="-fx-background-color: #E4F3FD;" text="home">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@home_button.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="209.0" layoutY="109.0" mnemonicParsing="false" onAction="#onResumeButtonClick" prefHeight="45.0" prefWidth="49.0" style="-fx-background-color: #E4F3FD;" text="retry">
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resume_button.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button contentDisplay="GRAPHIC_ONLY" layoutX="344.0" layoutY="109.0" mnemonicParsing="false" onAction="#onLeaderboardButtonClick" prefHeight="45.0" prefWidth="49.0" style="-fx-background-color: #E4F3FD;" text="leaderboard">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LeaderBoardIcon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

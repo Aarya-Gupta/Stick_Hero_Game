@@ -1,0 +1,59 @@
+// ********************************************** Unknown Code Begins
+    MouseEvent mousePressed;
+    MouseEvent mouseReleased;
+
+    public void handleMousePressed(MouseEvent mousePressed) {
+        this.mousePressed = mousePressed;
+    }
+
+    public void handleMouseReleased(MouseEvent mouseReleased) {
+        this.mouseReleased = mouseReleased;
+    }
+
+    // There's no need of event handlers, when mouse is pressed or released, because both the tasks lead to pre-defined functionalities;
+    // irrespective of the coordinated where they are pressed. Since on pressing the mouse, Stick will extend; and on releasing the mouse, the
+    // stick will rotate and the person will move to the next pillar.
+
+    // Commands to be run, when the mouse is pressed:
+    // gamePane.setOnMousePressed(mousePressedHandler);
+    // gamePane.setOnMouseReleased(mouseReleasedHandler);
+
+
+    // Creating demo objects of player, cherry, rose and pillar; in order to show connections in the uml diagram.
+    // These are just for the explanatory purposes, don't take them as the final declaration.
+
+    Cherry cherry = new Cherry();
+    Player player = new Player();
+    // Defining the stick Parameters; again, they don't have any values/functioning being assigned.
+    Stick stick = new Stick();
+    int Stick_length;
+    public void extendStick(){};
+    public void rotateStick(){};
+
+    // Defining sample pillar object
+    Pillar p = new Pillar();
+
+    // Method definition, to satisfy the implementation of the PausePageController Interace.
+//    @Override
+//    public void saveProgress() {
+//    }
+//
+//    @Override
+//    public void resumeGame() {
+//    }
+//
+//    @Override
+//    public void switchToHomePage() {
+//    }
+//    // Method definition ends.
+//
+//    // Method definition, to satisfy the implementation of the AppExitPageController Interace.
+//    @Override
+//    public void exit() {
+//
+//    }
+//    @Override
+//    public void cancel() {
+//
+//    }
+    // Method definition ends.

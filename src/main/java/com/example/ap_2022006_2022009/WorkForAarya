@@ -1,0 +1,21 @@
+# Connecting all the buttons to the respective screens for now.
+Status : Done (Not for AppExit Screen and LeaderBoard one)
+# Defining all the fields in a screen, so that there values can be updated :
+Status : Done (Not for AppExit Screen and LeaderBoard one)
+# Ex - displaying text field : score.
+# Define all the switch to screens methods in Game Application.
+# Make rectangle array lists for stick and incoming platforms.
+
+# Animation waale saare kaam ke liye use time intervals, and
+# Stick hamesha randomly generate hoti hai, but blocks pehle se hi bane rakhe hain.
+# Pehle stick giregi; fir banda move karega; and fir banda and block sync mein peeche jaayeinge
+# Teenon events ko alag alag time interval alot kar do.
+# 1000 blocks ko bana diya, and wo bas aaye ja rahe hain.
+# width bhi random kar di, and fir gap ko bhi randomly generate kar di.
+
+
+
+// ****************************************************
+// Work Pending :
+//
+// ****************************************************

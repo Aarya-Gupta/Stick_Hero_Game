@@ -1,0 +1,5 @@
+# Make App Exit Page (size smaller than the size of all the screens; should look like a prompt.)
+# Make Leaderboard screen, which should contain top 3-5 scores, scores should be made labels, against attract numeric position representations.
+    Ex - 1st, 2nd, 3rd, 4th, 5th.
+# Look for how to make clickable images as the button
+    # Once resolved, then change the normal buttons to the required buttons.

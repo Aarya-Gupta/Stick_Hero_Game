@@ -1,0 +1,45 @@
+package com.example.ap_2022006_2022009;
+import javafx.animation.TranslateTransition;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.util.Duration;
+import java.net.URL;
+import java.util.ResourceBundle;
+
+//public class RunningGameController implements StickController, PausePageController, AppExitPageController{
+//public class RunningGameController implements StickController{
+public class RunningGameController extends GameApplication implements Initializable{
+    // Defining the labels
+    @FXML
+    private Label currentScore;
+    @FXML
+    private Label netCherryCount;
+    @FXML
+    private ImageView hero_img;
+
+
+
+    @FXML
+    protected void onPauseButtonClick(ActionEvent event) {
+        // Will show the leaderboard, which will show the top 3 scores.
+        // The leaderboard must have a back button, which takes the user back to the pause page
+        // This means that Leaderboard screen is also to be created.
+        // This method will call a switchToLeaderboard() method.
+        switchToPausePage(event);
+        System.out.println("Pause Button clicked");
+    }
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        //translate
+        TranslateTransition translate = new TranslateTransition();
+        translate.setNode(hero_img);
+        translate.setDuration(Duration.millis(5000));
+        translate.setByX(1000);
+        translate.play();
+    }
+}

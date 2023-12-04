@@ -4,8 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="Trying to pull the changes.">
+    <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="dwdw">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/AppExitPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Cherry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameOverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/LeaderBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PausePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Pillar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PreviousRunningPageController" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/ReadME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RunningGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/StickController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/WorkForAarya" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/WorkForAastha" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Cat_with_Sunglasses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Cherries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/GameOverPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/GameOver_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/HeroImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/HomePage_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Homepage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/LeaderBoard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/LeaderBoardIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/LeaderBoard_Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/PausePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/PausePage_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Pause_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Previous_Running_Page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage_background.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Settings_Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/app_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/dummy_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/home_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/original running game controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/resume_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/retry_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/smilie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RectangleBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Stick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/test_aarya.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/ExitPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/AppExitPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/HomePage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +69,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -28,6 +84,23 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+    &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aastha1708&quot;
+    }
+    }</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="75f19732-119a-4456-a36e-c704c72668ef" />
+        <option name="url" value="https://github.com/Aarya-Gupta/Stick_Hero_Game" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
+    &quot;associatedIndex&quot;: 7
+    }</component>
   <component name="ProjectId" id="2YCxTleUQ2Iu3xRjDawfehjAGUp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,26 +120,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shrey Gupta/Desktop/AP_2022006_2022009/src/main/resources/com/example/ap_2022006_2022009&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.HelloApplication" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shrey Gupta\Desktop\AP_2022006_2022009\src\main\resources\com\example\ap_2022006_2022009" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GameApplication">
+    <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.GameApplication" />
       <module name="AP_2022006_2022009" />
       <extension name="coverage">
         <pattern>
@@ -78,9 +157,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunningGameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.RunningGameController" />
+      <module name="AP_2022006_2022009" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ap_2022006_2022009.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.GameApplication" />
+        <item itemvalue="Application.RunningGameController" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +197,13 @@
       <option name="presentableId" value="Default" />
       <updated>1700043373961</updated>
       <workItem from="1700043376483" duration="11971000" />
+      <workItem from="1700131172180" duration="3907000" />
+      <workItem from="1700380166369" duration="1608000" />
+      <workItem from="1700381947987" duration="10789000" />
+      <workItem from="1700843421669" duration="5079000" />
+      <workItem from="1700907993453" duration="2195000" />
+      <workItem from="1700981985841" duration="1635000" />
+      <workItem from="1700985870396" duration="76705000" />
     </task>
     <task id="LOCAL-00001" summary="This is the message written from intellij. Adding sample test class.">
       <option name="closed" value="true" />
@@ -126,39 +237,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700079208916</updated>
     </task>
-    <task id="LOCAL-00005" summary="Fxml files have been added.">
+    <task id="LOCAL-00005" summary="Aastha test">
       <option name="closed" value="true" />
-      <created>1700131851672</created>
+      <created>1700133052808</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1700131851672</updated>
+      <updated>1700133052808</updated>
     </task>
-    <task id="LOCAL-00006" summary="aarya's test">
+    <task id="LOCAL-00006" summary="Aastha test - 2">
       <option name="closed" value="true" />
-      <created>1700135081874</created>
+      <created>1700135938238</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1700135081874</updated>
+      <updated>1700135938238</updated>
     </task>
-    <task id="LOCAL-00007" summary="Trying to pull the changes.">
+    <task id="LOCAL-00007" summary="Aastha test - 2">
       <option name="closed" value="true" />
-      <created>1700136775472</created>
+      <created>1700136028929</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1700136775472</updated>
+      <updated>1700136028929</updated>
     </task>
-    <task id="LOCAL-00008" summary="Trying to pull the changes.">
-      <option name="closed" value="true" />
-      <created>1700137371347</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1700137371347</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +272,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -179,10 +294,11 @@
     <MESSAGE value="This is the message written from intellij." />
     <MESSAGE value="This is the message written from intellij. Adding sample test class." />
     <MESSAGE value="I have deleted test class. This was the last random commit made by me. Let's keep working." />
-    <MESSAGE value="Fxml files have been added." />
-    <MESSAGE value="aarya's test" />
-    <MESSAGE value="Trying to pull the changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to pull the changes." />
+    <MESSAGE value="Aastha test" />
+    <MESSAGE value="Aastha test - 2" />
+    <MESSAGE value="This is the latest update, in which switching between screens is occurring, and block is generated." />
+    <MESSAGE value="dwdw" />
+    <option name="LAST_COMMIT_MESSAGE" value="dwdw" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
