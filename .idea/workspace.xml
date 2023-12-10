@@ -5,61 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb1fe753-a9fc-4d10-8716-b2392a72786a" name="Changes" comment="dwdw">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/AppExitPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Cherry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameOverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/LeaderBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PausePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Pillar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PlayerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PreviousRunningPageController" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/ReadME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RunningGameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/StickController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/WorkForAarya" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/WorkForAastha" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Cat_with_Sunglasses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Cherries.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/GameOverPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/GameOver_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/HeroImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/HomePage_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Homepage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/LeaderBoard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/LeaderBoardIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/LeaderBoard_Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/PausePage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/PausePage_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Pause_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Previous_Running_Page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage_background.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Settings_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/Speaker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/app_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/dummy_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/home_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/original running game controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/resume_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/retry_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/smilie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HighestScore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/faltu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RectangleBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Stick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/test_aarya.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/ExitPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/AppExitPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/HomePage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/AppExitPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/AppExitPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameOverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/GameOverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/LeaderBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/LeaderBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PausePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/PausePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/ReadME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RunningGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RunningGameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/RunningPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ap_2022006_2022009/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +86,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Shrey Gupta/Desktop/AP_2022006_2022009/src/main/resources/com/example/ap_2022006_2022009&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -143,9 +103,48 @@
       <recent name="C:\Users\Shrey Gupta\Desktop\AP_2022006_2022009\src\main\resources\com\example\ap_2022006_2022009" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameApplication">
-    <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.GameApplication" />
+  <component name="RunManager" selected="Application.RunningGameController (4)">
+    <configuration name="RunningGameController (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.RunningGameController" />
+      <module name="AP_2022006_2022009" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ap_2022006_2022009.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningGameController (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.RunningGameController" />
+      <module name="AP_2022006_2022009" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ap_2022006_2022009.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningGameController (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.RunningGameController" />
+      <module name="AP_2022006_2022009" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ap_2022006_2022009.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunningGameController (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ap_2022006_2022009.RunningGameController" />
       <module name="AP_2022006_2022009" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameApplication" />
+        <item itemvalue="Application.RunningGameController (4)" />
+        <item itemvalue="Application.RunningGameController (3)" />
         <item itemvalue="Application.RunningGameController" />
+        <item itemvalue="Application.RunningGameController (2)" />
+        <item itemvalue="Application.RunningGameController (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +205,8 @@
       <workItem from="1700843421669" duration="5079000" />
       <workItem from="1700907993453" duration="2195000" />
       <workItem from="1700981985841" duration="1635000" />
-      <workItem from="1700985870396" duration="76705000" />
+      <workItem from="1700985870396" duration="102816000" />
+      <workItem from="1702124269495" duration="42651000" />
     </task>
     <task id="LOCAL-00001" summary="This is the message written from intellij. Adding sample test class.">
       <option name="closed" value="true" />
@@ -299,6 +302,21 @@
     <MESSAGE value="This is the latest update, in which switching between screens is occurring, and block is generated." />
     <MESSAGE value="dwdw" />
     <option name="LAST_COMMIT_MESSAGE" value="dwdw" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/ap_2022006_2022009/RunningGameController.java</url>
+          <line>590</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

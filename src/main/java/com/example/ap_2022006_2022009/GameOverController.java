@@ -3,7 +3,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class GameOverController extends GameApplication{
+public class GameOverController extends RunningGameController{
 
     // Method 1: To show the current score
     @FXML
@@ -27,9 +27,9 @@ public class GameOverController extends GameApplication{
     }
 
     @FXML
-    protected void onRetryButtonClick(ActionEvent event) {
+    protected void onRetryButtonClick(ActionEvent event) throws InterruptedException {
         //Will switch the screen to running page;
-        switchToRunningPage(event);
+        switchToRunningPage(event, primaryStage);
         // Saving the current game's score.
         System.out.println("Retry Button clicked");
     }

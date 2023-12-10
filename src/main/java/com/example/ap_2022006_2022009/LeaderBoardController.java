@@ -3,7 +3,7 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-public class LeaderBoardController extends GameApplication {
+public class LeaderBoardController extends RunningGameController {
     // Will have only one button, to return to the home screen.
     @FXML
     protected void onCloseButtonClick(ActionEvent event) {

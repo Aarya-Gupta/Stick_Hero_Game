@@ -1,13 +1,17 @@
 package com.example.ap_2022006_2022009;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 
-public class HomePageController extends GameApplication{
+public class HomePageController extends RunningGameController{
     @FXML
-    protected void onPlayButtonClick(ActionEvent event) {
+    protected void onPlayButtonClick(ActionEvent event) throws InterruptedException {
         //Will switch the screen to running page.
-        switchToRunningPage(event);
+        primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+        switchToRunningPage(event, primaryStage);
         System.out.println("Play Button clicked");
     }
 

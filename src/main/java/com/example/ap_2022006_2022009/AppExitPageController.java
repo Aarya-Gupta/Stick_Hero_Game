@@ -2,7 +2,7 @@ package com.example.ap_2022006_2022009;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-public class AppExitPageController extends GameApplication{
+public class AppExitPageController extends RunningGameController{
     //    This class will be used when the user wants to exit the game.
     @FXML
     protected void exit(ActionEvent event){

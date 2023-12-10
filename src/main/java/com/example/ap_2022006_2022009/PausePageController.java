@@ -3,7 +3,7 @@ package com.example.ap_2022006_2022009;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-public class PausePageController extends GameApplication{
+public class PausePageController extends RunningGameController{
     // Made this as the interface, so that the functionality of the methods can by defined inside the RunningGameController Class.
 //    public void saveProgress();
 //    // Will save the score of the current gameplay, and update the best score (if needed).
@@ -23,10 +23,10 @@ public class PausePageController extends GameApplication{
     }
 
     @FXML
-    protected void onResumeButtonClick(ActionEvent event) {
+    protected void onResumeButtonClick(ActionEvent event) throws InterruptedException {
         // Will resume the game again, w/o saving the progress.
-        // But don't know how to resume to the original state of the running screen/restore to the state 2w``1achieved in game.
-        switchToRunningPage(event);
+        // But don't know how to resume to the original state of the running screen/restore to the state achieved in game.
+        switchToRunningPage(event, primaryStage);
         System.out.println("Resume Button clicked");
     }
 
