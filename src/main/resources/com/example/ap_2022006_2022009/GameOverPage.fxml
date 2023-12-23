@@ -5,6 +5,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_2022006_2022009.GameOverController">
@@ -15,11 +16,34 @@
          </image>
       </ImageView>
       <Text layoutX="267.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: helvetica; -fx-font-size: 20; -fx-font-weight: bold;" text="SCORE" wrappingWidth="66.92303466796875" />
-      <Text layoutX="274.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: helvetica; -fx-font-size: 20; -fx-font-weight: bold;" text="BEST" />
-      <Button layoutX="219.0" layoutY="269.0" mnemonicParsing="false" onAction="#onHomeButtonClick" text="home" />
-      <Button layoutX="280.0" layoutY="269.0" mnemonicParsing="false" onAction="#onRetryButtonClick" text="retry" />
-      <Button layoutX="334.0" layoutY="269.0" mnemonicParsing="false" onAction="#onLeaderboardButtonClick" text="LeaderBoard" />
-      <Label fx:id="currentScore" layoutX="283.0" layoutY="125.0" text="Label" />
-      <Label fx:id="bestScore" layoutX="283.0" layoutY="201.0" text="Label" />
+      <Text layoutX="243.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: helvetica; -fx-font-size: 20; -fx-font-weight: bold;" text="BEST SCORE" />
+      <Button layoutX="191.0" layoutY="258.0" mnemonicParsing="false" onAction="#onHomeButtonClick" prefHeight="34.0" prefWidth="40.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="41.0" onMouseClicked="#onHomeButtonClick" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@home_button.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="274.0" layoutY="260.0" mnemonicParsing="false" onAction="#onRetryButtonClick">
+         <graphic>
+            <ImageView fitHeight="57.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@retry_button.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="355.0" layoutY="258.0" mnemonicParsing="false" onAction="#onLeaderboardButtonClick" prefHeight="47.0" prefWidth="46.0">
+         <graphic>
+            <ImageView fitHeight="98.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LeaderBoardIcon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label fx:id="bestScore" layoutX="285.0" layoutY="185.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="37.0" prefWidth="31.0" text="30">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
    </children>
 </AnchorPane>

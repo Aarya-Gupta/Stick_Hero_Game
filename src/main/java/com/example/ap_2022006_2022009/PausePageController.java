@@ -3,7 +3,9 @@ package com.example.ap_2022006_2022009;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-public class PausePageController extends RunningGameController{
+import java.io.IOException;
+
+public class PausePageController extends RunningGameControllerFinal{
     // Made this as the interface, so that the functionality of the methods can by defined inside the RunningGameController Class.
 //    public void saveProgress();
 //    // Will save the score of the current gameplay, and update the best score (if needed).
@@ -23,27 +25,18 @@ public class PausePageController extends RunningGameController{
     }
 
     @FXML
-    protected void onResumeButtonClick(ActionEvent event) throws InterruptedException {
+    protected void onResumeButtonClick(ActionEvent event) throws Exception {
         // Will resume the game again, w/o saving the progress.
         // But don't know how to resume to the original state of the running screen/restore to the state achieved in game.
-        switchToRunningPage(event, primaryStage);
+        stop();
+        switchToRunningPage(event);
         System.out.println("Resume Button clicked");
     }
-
     @FXML
-    protected void onLeaderboardButtonClick(ActionEvent event) {
-        // Will show the leaderboard, which will show the top 3 scores.
-        // The leaderboard must have a back button, which takes the user back to the pause page
-        // This means that Leaderboard screen is also to be created.
-        // This method will call a switchToLeaderboard() method.
-        switchToLeaderBoardPage(event);
-        System.out.println("Leaderboard Button clicked");
-    }
-
-    @FXML
-    protected void onSaveProgressButtonClick(ActionEvent event) {
+    protected void onSaveProgressButtonClick(ActionEvent event) throws Exception {
         // This will save the current progress in the leaderboard at the respective position.
         // Will switch the screen to HomePage.
+        stop();
         switchToHomePage(event);
         System.out.println("SaveProgress Button clicked");
     }

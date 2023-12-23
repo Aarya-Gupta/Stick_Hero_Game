@@ -1,63 +1,60 @@
 package com.example.ap_2022006_2022009;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.control.Label;
+
+import java.io.*;
 
 // Following singleton design pattern
 
-public class SuperClass {
-    public String my_score = "0";
-    public String highest_score = "0";
+public class SuperClass implements Serializable {
+    // Contains fields of type label only, so that it's easier to update and access directly.
+    public Label cherryCount;
+    public Label highest_score;
 
-    private SuperClass(String my_score, String highest_score) {
-        this.my_score = my_score;
+
+    public SuperClass(Label cherryCount, Label highest_score) {
+        this.cherryCount = cherryCount;
         this.highest_score = highest_score;
     }
 
     private static final class InstanceHolder {
-        private static final SuperClass instance = new SuperClass("0", "0");
+        // Creating new labels if it doesn't exist.
+        private static final SuperClass instance = new SuperClass(new Label("0"), new Label("0"));
     }
 
     public static SuperClass getInstance() {
         return InstanceHolder.instance;
     }
 
-    // Other methods and fields...
-
-    // For example, you can add a method to update scores
-    public void updateScores(String newMyScore, String newHighestScore) {
-        this.my_score = newMyScore;
+    // Method to update scores in the text file
+    public void updateScores(Label newCherryCount, Label newHighestScore) {
+        this.cherryCount = newCherryCount;
         this.highest_score = newHighestScore;
+        // Save updated values to file
+        saveParametersToFile();
+    }
+
+    // Method to load parameters from file
+    private void loadParametersFromFile() {
+        try (BufferedReader reader = new BufferedReader(new FileReader("Super.ser"))) {
+            cherryCount.setText(reader.readLine());
+            highest_score.setText(reader.readLine());
+//            cherryCount = reader.readLine();
+//            highest_score = reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+            // Handle file reading exception
+        }
+    }
+
+    // Method to save parameters to file;
+    private void saveParametersToFile() {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Super.ser"))) {
+            writer.write(cherryCount.getText());
+            writer.newLine();
+            writer.write(highest_score.getText());
+        } catch (IOException e) {
+            e.printStackTrace();
+            // Handle file writing exception
+        }
     }
 }
-
-//    @Override
-//    public void start(Stage primaryStage) {
-//        super.primaryStage = primaryStage;
-//        Parent root_running = loadFXML("RunningPage.fxml");
-//        scene_running = new Scene(root_running);
-//
-//        // Generating 100 blocks;
-//        ArrayList<Rectangle> ListOfBlocks = new ArrayList<>();
-//        blocksGenerator(ListOfBlocks, root_running);
-//        for (int i = 0; i<100; i++){
-////            G.getChildren().add(ListOfBlocks.get(i));
-//        }
-//
-//        // Generating 100 rectangles; not making any function.
-//        Random random = new Random();
-//        int maxWidth = 100;
-//        int maxGap = 50;
-//        int minWidth = 5;
-//        int minGap = 5;
-//        int xPosition = 0;
-//        int yPosition = 283;
-//        for (int i = 0; i < 100; i++) {
-//            double width = minWidth + random.nextDouble() * maxWidth;
-//            Rectangle rectangle = new Rectangle(width, 50);
-//            rectangle.setHeight(118); // Set height to 150 pixels
-//            rectangle.setX(xPosition);
-//            rectangle.setY(yPosition);
-//            xPosition += (int) (minGap + width + random.nextDouble() * maxGap);
-//            // Not able to resolve how to add the rectangle into the scene; the following line is throwing error.
-//            G.getChildren().add(rectangle);
-//        }
-//    }

@@ -3,19 +3,16 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class GameOverController extends RunningGameController{
+import java.io.IOException;
+
+public class GameOverController extends RunningGameControllerFinal{
 
     // Method 1: To show the current score
     @FXML
-    private Label currentScore;
+    private Label currentScore = dummy;
     // Method 2: To show the best score, hence defining its label.
     @FXML
-    private Label bestScore;
-
-    // ****************************************************
-    // Work Pending :
-    // To connect the display inside the labels, with the respective scores.
-    // ****************************************************
+    private Label bestScore = SuperClass.getInstance().highest_score;
 
 
     // Defining the Button-Clicking methods.
@@ -27,9 +24,9 @@ public class GameOverController extends RunningGameController{
     }
 
     @FXML
-    protected void onRetryButtonClick(ActionEvent event) throws InterruptedException {
+    protected void onRetryButtonClick(ActionEvent event) throws InterruptedException, IOException {
         //Will switch the screen to running page;
-        switchToRunningPage(event, primaryStage);
+        switchToRunningPage(event);
         // Saving the current game's score.
         System.out.println("Retry Button clicked");
     }

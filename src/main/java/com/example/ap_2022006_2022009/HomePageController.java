@@ -5,13 +5,13 @@ import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
-public class HomePageController extends RunningGameController{
+public class HomePageController extends RunningGameControllerFinal{
     @FXML
-    protected void onPlayButtonClick(ActionEvent event) throws InterruptedException {
+    protected void onPlayButtonClick(ActionEvent event) throws Exception {
         //Will switch the screen to running page.
-        primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-
-        switchToRunningPage(event, primaryStage);
+        // primary stage is an argument in RunningGameController already.
+        stop();
+        switchToRunningPage(event);
         System.out.println("Play Button clicked");
     }
 

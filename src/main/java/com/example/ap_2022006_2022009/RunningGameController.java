@@ -28,7 +28,7 @@ import java.util.Random;
 
 
 public class RunningGameController extends GameApplication implements Initializable{
-//public class RunningGameController extends GameApplication{
+    //public class RunningGameController extends GameApplication{
     // Defining the labels
     @FXML
     private static Label currentScore;
@@ -37,8 +37,6 @@ public class RunningGameController extends GameApplication implements Initializa
     @FXML
     private static ImageView HeroImg;
     public static Stage primaryStage;
-    public static double heroBaseX; // X-coordinate of the base of the rod
-    public static double heroBaseY; // Y-coordinate of the base of the rod
     private static ImageView hero_img = new ImageView("C:\\Users\\Shrey Gupta\\Desktop\\AP_2022006_2022009\\src\\main\\resources\\com\\example\\ap_2022006_2022009\\HeroImg.png");
     public static boolean isHeroMoving = false;
     public static Pane G;
@@ -74,8 +72,11 @@ public class RunningGameController extends GameApplication implements Initializa
         System.out.println("Pause Button clicked");
     }
 
-//     Defining switch to methods :
-
+    //     Defining switch to methods :
+    private void updateLabels(String score, String cherryCount) {
+        currentScore.setText(score);
+        netCherryCount.setText(cherryCount);
+    }
     private void initializeNewGame() {
         // Reset any game state variables or objects here
         isGrowing = false;
@@ -140,6 +141,7 @@ public class RunningGameController extends GameApplication implements Initializa
         root_running = loadFXML("RunningPage.fxml");
         scene_running = new Scene(root_running);
         primaryStage.setScene(scene_running);
+
         final int[] index = {1};
         // Creating a list of 100 blocks, which will be accessed iteratively;
         List_Of_Blocks = blocksGenerator(root_running);
@@ -211,11 +213,24 @@ public class RunningGameController extends GameApplication implements Initializa
                         System.out.println("This is the value: "+ rod.getEndX() );
 
                         if (rod.getEndX() > rect2nd.getX() && rod.getEndX() < rect2nd.getX() + rect2nd.getWidth()) {
-                            //                                primaryStage.close();
-
-
                             System.out.println("Entered try block");
                             initializeNewGame();
+
+                            // Updating the current score by one.
+                            String currentScoreText = currentScore.getText();
+                            int currentScoreValue = 0;
+                            try {
+                                currentScoreValue = Integer.parseInt(currentScoreText);
+                                currentScoreValue++;  // Increment the score
+                                currentScore.setText(String.valueOf(currentScoreValue));  // Update the label
+                            } catch (NumberFormatException err) {
+                                // Handle the case where the text is not a valid integer
+                                System.err.println("Error parsing currentScore as an integer: " + err.getMessage());
+                            }
+                            // Checking if the current score is greater than the gacheived score :
+//                            if (currentScoreValue > Integer.parseInt(SuperClass.getInstance().highest_score)) {
+//                                updateLabels(currentScoreText, netCherryCount.getText());
+//                            }
                         }
                         else{
                             System.out.println("Entered else block");
@@ -223,7 +238,7 @@ public class RunningGameController extends GameApplication implements Initializa
                             translate_fall.setNode(hero_img);
                             translate_fall.setDuration(Duration.millis(1000));
                             translate_fall.setByY(-18);
-                            switchToGameOverPage(event);
+//                            switchToGameOverPage(event);
                         }
                     });
                     translate.play();
@@ -237,9 +252,8 @@ public class RunningGameController extends GameApplication implements Initializa
         primaryStage.setTitle("Running Page Screen");
         primaryStage.show();
 
-
-
-
+//
+//
 //        // Timeline to extend rod
 //        timer_rodExtend = new Timeline(
 //                new KeyFrame(Duration.ZERO, e -> {
@@ -291,8 +305,8 @@ public class RunningGameController extends GameApplication implements Initializa
 //        primaryStage.setTitle("RunningPage Screen");
 //        primaryStage.show();
 //    }
-
-
+//
+//
 //     Timer to extend rod;
 //        AnimationTimer timer_rodExtend = new AnimationTimer() {
 //            @Override
@@ -323,7 +337,7 @@ public class RunningGameController extends GameApplication implements Initializa
 //                    isRotating = false; // Reset rotation flag
 //                }
 //            }
-
+//
 //            private void handleMousePressed(MouseEvent event) {
 //                ScaleTransition scaleTransition = new ScaleTransition(Duration.millis(1000), rod);
 //                scaleTransition.setToY(1.0 + growthSpeed / 10); // Increase the Y scale for vertical growth
@@ -358,7 +372,7 @@ public class RunningGameController extends GameApplication implements Initializa
 //                });
 //                scaleTransition.play();
 //            }
-
+//
 //            private void handleMouseReleased(MouseEvent event) {
 //                if (rotationStart){
 //                    return;
@@ -369,9 +383,9 @@ public class RunningGameController extends GameApplication implements Initializa
 //                }
 //            }
 //        };
-
+//
 //         Scale transition, translate transition, rotate transition
-
+//
 //        AnimationTimer timer = new AnimationTimer() {
 //            @Override
 //            public void handle(long now) {
@@ -394,8 +408,8 @@ public class RunningGameController extends GameApplication implements Initializa
 //        timer.wait(1000);
 //        timer_hero.start();
 //        timer.start();
-
-
+//
+//
 //        // All the functionalities in the running page will be declared here only.
 //        // Generating 100 rectangles; not making any function.
 //        Random random = new Random();
@@ -443,10 +457,11 @@ public class RunningGameController extends GameApplication implements Initializa
     }
 
     public void switchToGameOverPage(ActionEvent event) {
+
         Parent root_game_over = loadFXML("GameOverPage.fxml");
         primaryStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Scene scene_game_over = new Scene(root_game_over);
-        primaryStage.setScene(scene_game_over);
+//        primaryStage.setScene(scene_game_over);
         primaryStage.setTitle("GameOverPage Screen");
         primaryStage.show();
     }
@@ -525,10 +540,11 @@ public class RunningGameController extends GameApplication implements Initializa
         translate.setDuration(Duration.millis(10000));
         translate.setByX(displacement);
         translate.setOnFinished(e -> {
-            // call blocksGenerator() here, and generate them;
-//            blockGenerator();
         });
         translate.play();
+    }
+    public SuperClass returnSuperObj(){
+        return SuperClass.getInstance();
     }
 
     protected void blockGenerator(Pane root, int lastBlockPosition){
@@ -549,36 +565,45 @@ public class RunningGameController extends GameApplication implements Initializa
         (root).getChildren().add(rectangle);
     }
 
+
+    // Code without using factory design pattern :
+//    protected ArrayList<Rectangle> blocksGenerator(Parent root) {
+//        ArrayList<Rectangle> List_Of_Blocks = new ArrayList<>();
+//        Random random = new Random();
+//        int maxWidth = 100;
+//        int maxGap = 2;
+//        int minWidth = 5;
+//        int minGap = 5;
+//        int x_initial_pos = 0;  // Initial position for the first rectangle.
+//
+//        // Creating initial block of custom width
+//        Rectangle rectangle_ini = new Rectangle();
+//        rectangle_ini.setWidth(72);
+//        rectangle_ini.setHeight(118);
+//        rectangle_ini.setY(283);  // Set y-coordinate to 283
+//        List_Of_Blocks.add(rectangle_ini);
+//
+//        // Generating 100 blocks.
+//        for (int i = 0; i < 100; i++) {
+//            double width = minWidth + random.nextDouble() * maxWidth;
+//            // Create the rectangle with the random width, but constant height.
+//            Rectangle rectangle = new Rectangle();
+//            rectangle.setWidth(width);
+//            rectangle.setHeight(118);
+//            rectangle.setY(283);  // Set y-coordinate to 283
+//            List_Of_Blocks.add(rectangle);
+//            // Update xPosition for the next rectangle (with a random gap)
+//            x_initial_pos += (int) (150+ random.nextDouble() * maxGap);
+//            rectangle.setX(x_initial_pos);
+//        }
+//        return List_Of_Blocks;
+//    }
+
+    //    Code with using factory design pattern :
     protected ArrayList<Rectangle> blocksGenerator(Parent root) {
-        ArrayList<Rectangle> List_Of_Blocks = new ArrayList<>();
-        Random random = new Random();
-        int maxWidth = 100;
-        int maxGap = 2;
-        int minWidth = 5;
-        int minGap = 5;
-        int x_initial_pos = 0;  // Initial position for the first rectangle.
-
-        // Creating initial block of custom width
-        Rectangle rectangle_ini = new Rectangle();
-        rectangle_ini.setWidth(72);
-        rectangle_ini.setHeight(118);
-        rectangle_ini.setY(283);  // Set y-coordinate to 283
-        List_Of_Blocks.add(rectangle_ini);
-
-        // Generating 100 blocks.
-        for (int i = 0; i < 100; i++) {
-            double width = minWidth + random.nextDouble() * maxWidth;
-            // Create the rectangle with the random width, but constant height.
-            Rectangle rectangle = new Rectangle();
-            rectangle.setWidth(width);
-            rectangle.setHeight(118);
-            rectangle.setY(283);  // Set y-coordinate to 283
-            List_Of_Blocks.add(rectangle);
-            // Update xPosition for the next rectangle (with a random gap)
-            x_initial_pos += (int) (150+ random.nextDouble() * maxGap);
-            rectangle.setX(x_initial_pos);
-        }
-        return List_Of_Blocks;
+        double initialX = 0;
+        double initialY = 283;
+        return RectangleFactory.generateRectangles(100, initialX, initialY);
     }
 
 
